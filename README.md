@@ -1,10 +1,16 @@
 <p align="center">
-  <img src="docs/banner.svg" alt="UE5 Medieval Combat System – lock-on, fists and sword, directional hit reactions" width="100%">
+  <img src="docs/banner.png" alt="UE5 Medieval Combat System – lock-on, fists and sword, directional hit reactions" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Unreal_Engine-5.7-FFB61A?style=for-the-badge&logo=unrealengine&logoColor=white&labelColor=0A0A0A" alt="Unreal Engine 5.7">
+  <img src="https://img.shields.io/badge/Blueprint-Lock--on_·_Blade_Trace-FFB61A?style=for-the-badge&labelColor=0A0A0A" alt="Blueprint">
+  <img src="https://img.shields.io/badge/Niagara-VFX-FFB61A?style=for-the-badge&labelColor=0A0A0A" alt="Niagara VFX">
 </p>
 
 <p align="center">
   <a href="https://www.ibrahimenescolak.com"><b>Portfolio</b></a> ·
-  <a href="https://www.linkedin.com/in/ibrahim-enes-%C3%A7olak">LinkedIn</a> ·
+  <a href="https://www.linkedin.com/in/ibrahim-enes-%C3%A7olak-b18327316">LinkedIn</a> ·
   <a href="https://qpayk.itch.io">itch.io</a>
 </p>
 
@@ -12,9 +18,18 @@
 
 Player-side melee combat for Unreal Engine 5.7, built in Blueprints: a lock-on target system, unarmed and sword attacks, a sword hit trace driven by an Anim Notify State, and front/back hit reactions on the target. There is no enemy AI here; the bot is a target dummy that takes hits.
 
-<!-- MEDIA: put a 10–15 s GIF here once recorded, e.g.
-<p align="center"><img src="docs/media/combat.gif" width="80%" alt="Lock-on and sword combo against the training dummy"></p>
--->
+<table>
+<tr>
+<td width="33%"><img src="docs/media/full-showcase.gif" alt="Full showcase in the medieval village" width="100%"></td>
+<td width="33%"><img src="docs/media/sword.gif" alt="Sword attacks" width="100%"></td>
+<td width="33%"><img src="docs/media/fists.gif" alt="Unarmed attacks" width="100%"></td>
+</tr>
+<tr>
+<td align="center"><sub><b>Showcase</b> · combat in the village</sub></td>
+<td align="center"><sub><b>Sword</b> · blade-traced hits</sub></td>
+<td align="center"><sub><b>Fists</b> · press <kbd>E</kbd> to switch</sub></td>
+</tr>
+</table>
 
 ## What it does
 
@@ -95,18 +110,24 @@ Content/
 
 ## What I would improve next
 
-- Enemy AI that fights back (my [UE5-Boxer-Enemy-AI](https://github.com/ibrahim0enes/UE5-Boxer-Enemy-AI) is a first step).
+- Put my [Smart AI System](https://github.com/ibrahim0enes/UE5-Smart-AI-System) enemy in the village so the target fights back.
 - Plug the hits into my C++ [UE5-Health-Damage-System](https://github.com/ibrahim0enes/UE5-Health-Damage-System) instead of handling damage in Blueprints.
 - Switch targets with the mouse while locked on.
 - Replication for multiplayer.
 
-## My other UE5 repos
 
-| Repo | What it is |
-|---|---|
-| [UE5-Boxer-Enemy-AI](https://github.com/ibrahim0enes/UE5-Boxer-Enemy-AI) | Boxer enemy that chases, punches and reacts, built in Blueprints without a Behavior Tree |
-| [UE5-Health-Damage-System](https://github.com/ibrahim0enes/UE5-Health-Damage-System) | Reusable health and damage component in C++ (interface, delegates, Blueprint hooks) |
-| [UE5-Medieval-Combat-System](https://github.com/ibrahim0enes/UE5-Medieval-Combat-System) | Player-side medieval combat: lock-on, fists and sword, directional hit reactions |
+## More UE5 work
+
+<table>
+<tr>
+<td width="50%"><a href="https://github.com/ibrahim0enes/UE5-Smart-AI-System"><img src="https://raw.githubusercontent.com/ibrahim0enes/ibrahim0enes/main/assets/card-smart-ai.png" alt="Smart AI System"></a></td>
+<td width="50%"><a href="https://github.com/ibrahim0enes/UE5-Medieval-Combat-System"><img src="https://raw.githubusercontent.com/ibrahim0enes/ibrahim0enes/main/assets/card-medieval.png" alt="Medieval Combat System"></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/ibrahim0enes/UE5-Health-Damage-System"><img src="https://raw.githubusercontent.com/ibrahim0enes/ibrahim0enes/main/assets/card-health.png" alt="Health &amp; Damage System"></a></td>
+<td width="50%"><a href="https://github.com/ibrahim0enes/UE5-Boxer-Enemy-AI"><img src="https://raw.githubusercontent.com/ibrahim0enes/ibrahim0enes/main/assets/card-boxer.png" alt="Boxer Enemy AI (prototype)"></a></td>
+</tr>
+</table>
 
 ## Credits
 
