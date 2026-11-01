@@ -1,0 +1,40 @@
+# Unreal generated folders
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Config/DefaultEditorPerProjectUserSettings.ini
+
+# IDE
+.vs/
+.idea/
+.vscode/
+*.sln
+*.vcxproj*
+
+# Epic mannequins from the Third Person template (add them yourself, see README)
+Content/Characters/
+
+# Third-party Fab packs and animations retargeted from them (licences do not allow sharing, see README)
+Content/ArrowTrail/
+Content/AwesomeSwordAnimationV1/
+Content/Fab/
+Content/FIRETRAILOFTHESWORD/
+Content/Free_Sounds_Pack/
+Content/Itadori_aura/
+Content/KiAura/
+Content/Pack_Simple_Particle_Burst/
+Content/PunchAnimationPackV2/
+Content/RealisticSwordSoundEffects/
+Content/Ret_Animations/
+Content/SciFiUISFX/
+Content/Smacks-And-Scuffles_Pack1/
+Content/SwordTrailVFX/
+Content/TheStickman/
+Content/Vefects/
+Content/EngineSky/
+
+# OS
+.DS_Store
+Thumbs.db
